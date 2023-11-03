@@ -17,7 +17,7 @@ const App: React.FC = () => {
         { name: 'Bacon', count: 0 },
     ]);
 
-    const increaseIngr; = (index: number) => {
+    const increaseIngr = (index: number) => {
         const updatedIngredients = [...ingredients];
         updatedIngredients[index].count++;
         setIngredients(updatedIngredients);
